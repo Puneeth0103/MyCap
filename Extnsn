@@ -1,0 +1,2 @@
+file=input("Enter the File name: ")
+print ("The extension of the file is : " + repr(file.split(".")[-1]))
