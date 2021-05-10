@@ -1,0 +1,16 @@
+numbers=[]
+while True:
+    x=int(input("Enter a number: "))
+    numbers.append(x)
+    c=input("Would you like to enter another number?: Press N to discontinue, Press any other key to continue: ")
+    if c=="N" or c=="n":
+        break
+print("Your entered list is: [",end="")
+for i in numbers:
+    print(i,end=",")
+print("]")
+print("The positive numbers in the list is: [",end="")
+for i in numbers:
+    if i>0:
+        print(i,end=",")
+print("]")
