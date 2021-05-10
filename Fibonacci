@@ -1,0 +1,12 @@
+x=int(input("Enter the highest number equal to or below which the fibonnaci numbers appear: "))
+print("The fibonacci series upto your range are: ")
+a=0
+b=1
+print(a,end=",")
+print(b,end=",")
+c=a+b
+while c<=x:
+    print(c,end=",")
+    a=b
+    b=c
+    c=a+b
